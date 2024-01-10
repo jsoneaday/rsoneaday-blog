@@ -1,4 +1,9 @@
 pub mod app;
+pub mod pages {
+  pub mod home;
+  pub mod not_found;
+}
+
 use cfg_if::cfg_if;
 
 cfg_if! {
