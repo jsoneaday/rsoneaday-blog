@@ -109,6 +109,7 @@ main {
 .layout-container {
   margin: auto;
   height: 100vh;
+  background-color: black;
 }
 
 .panel-col {
