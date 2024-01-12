@@ -1,7 +1,9 @@
 pub mod app;
 pub mod pages {
   pub mod home;
+  pub mod admin;
   pub mod not_found;
+  pub mod error_boundary;
 }
 
 use cfg_if::cfg_if;
